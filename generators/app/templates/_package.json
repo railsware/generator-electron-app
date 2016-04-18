@@ -1,0 +1,52 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "gulp build",
+    "watch": "gulp watch & electron .",
+    "test": "gulp jasmine",
+    "start": "npm run build && npm run watch"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "electron-prebuilt": "~0.37.5",
+    "gulp": "^3.9.1",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "2.6.0",
+    "gulp-declare": "^0.3.0",
+    "gulp-htmlmin": "^1.3.0",
+    "gulp-if": "^2.0.0",
+    "gulp-jasmine": "^2.3.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-useref": "^3.0.8",
+    "gulp-watch": "^4.3.5",
+    "gulp-wiredep": "0.0.0",
+    "gulp-wrap": "^0.11.0",
+    "run-sequence": "^1.1.5",
+    "gulp-electron-packer": "0.0.2"
+  },
+  "dependencies": {},
+  "packaging": {
+    "version": "0.37.5",
+    "archive": false,
+    "overwrite": true,
+    "destination": "./releases",
+    "platforms": ["darwin-x64", "linux-x64"],
+    "platformResources": {
+      "darwin": {
+        "icon": ""
+      },
+      "win": {
+        "icon": ""
+      },
+      "linux": {
+        "icon": ""
+      }
+    }
+  }
+}
