@@ -1,6 +1,8 @@
 # generator-electron-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Scaffold for Electron application
 
+![Electron App Scaffold](https://raw.githubusercontent.com/railsware/generator-electron-app/master/screenshot.png)
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-electron-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
