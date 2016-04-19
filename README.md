@@ -27,7 +27,7 @@ yo electron-app
 
 ## License
 
-MIT © [Alex Chaplinsky]()
+MIT © [Railsware, Alex Chaplinsky]()
 
 
 [npm-image]: https://badge.fury.io/js/generator-electron-app.svg
