@@ -1,4 +1,4 @@
-# generator-electron-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-electron-app 
 > Scaffold for Electron application
 
 ![Electron App Scaffold](https://raw.githubusercontent.com/railsware/generator-electron-app/master/screenshot.png)
