@@ -1,5 +1,5 @@
 # generator-electron-app 
-> Scaffold for Electron application
+> Quick start with building Electron application with built in unit testing and packaging solutions. CoffeeScript and Sass support.
 
 ![Electron App Scaffold](https://raw.githubusercontent.com/railsware/generator-electron-app/master/screenshot.png)
 
