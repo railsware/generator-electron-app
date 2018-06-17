@@ -59,19 +59,19 @@ module.exports = yeoman.Base.extend({
       message: 'Which platforms do you want to target?',
       choices: [{
         name: 'Mac Os',
-        value: 'darwin-x64'
+        value: "darwin-x64"
       }, {
         name: 'Windows x32',
-        value: 'win32'
+        value: "win32"
       }, {
         name: 'Windows x64',
-        value: 'win64-64'
+        value: "win64-64"
       }, {
         name: 'Linux x32',
-        value: 'linux-ia32'
+        value: "linux-ia32"
       }, {
         name: 'Linux x64',
-        value: 'linux-x64'
+        value: "linux-x64"
       }],
       validate: function (value) {
         return value.length > 0 ? true : 'You have to specify at least one platform'
